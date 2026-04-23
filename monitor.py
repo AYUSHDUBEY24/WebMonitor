@@ -146,6 +146,12 @@ def state_change_messages(previous: Dict[str, bool], current: List[CheckResult])
     messages = []
     for result in current:
         prev = previous.get(result.name)
+        # On first run, still alert if target is down.
+        if prev is None and (not result.is_up):
+            messages.append(
+                f"DOWN: {result.name} | {result.url} | latency={result.latency_ms}ms | error={result.error or 'N/A'}"
+            )
+            continue
         if prev is None:
             continue
         if prev and not result.is_up:

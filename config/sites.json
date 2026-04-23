@@ -1,15 +1,15 @@
 {
   "sites": [
     {
-      "name": "Example Website",
-      "url": "https://example.com",
+      "name": "Google",
+      "url": "https://google.com",
       "expected_status": 200,
       "timeout_seconds": 10,
-      "keyword": "Example Domain"
+      "keyword": "Google"
     },
     {
       "name": "GitHub API",
-      "url": "https://api.github.com",
+      "url": "https://apub.com",
       "expected_status": 200,
       "timeout_seconds": 10
     }

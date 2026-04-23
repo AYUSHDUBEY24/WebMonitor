@@ -1,0 +1,17 @@
+{
+  "sites": [
+    {
+      "name": "Example Website",
+      "url": "https://example.com",
+      "expected_status": 200,
+      "timeout_seconds": 10,
+      "keyword": "Example Domain"
+    },
+    {
+      "name": "GitHub API",
+      "url": "https://api.github.com",
+      "expected_status": 200,
+      "timeout_seconds": 10
+    }
+  ]
+}

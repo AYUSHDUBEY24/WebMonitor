@@ -8,8 +8,8 @@
       "keyword": "Google"
     },
     {
-      "name": "GitHub API",
-      "url": "https://apub.com",
+      "name": "Test Site",
+      "url": "http://thesdsfsf.com/",
       "expected_status": 200,
       "timeout_seconds": 10
     }

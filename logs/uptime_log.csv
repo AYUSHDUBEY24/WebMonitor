@@ -43,3 +43,5 @@ timestamp_utc,name,url,expected_status,actual_status,latency_ms,is_up,error
 2026-04-24T12:42:29.913057+00:00,Github,http://github.com/,200,0,10110,0,Exception: The read operation timed out
 2026-04-24T14:18:15.035618+00:00,Google,https://google.com,200,200,336,1,
 2026-04-24T14:18:15.351909+00:00,Github,http://github.com/,200,200,316,1,
+2026-04-24T15:44:44.588513+00:00,Google,https://google.com,200,200,151,1,
+2026-04-24T15:44:44.809183+00:00,Github,http://github.com/,200,200,220,1,

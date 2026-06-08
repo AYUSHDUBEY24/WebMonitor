@@ -1203,3 +1203,5 @@ timestamp_utc,name,url,expected_status,actual_status,latency_ms,is_up,error
 2026-06-08T01:58:59.966500+00:00,Github,http://github.com/,200,200,636,1,
 2026-06-08T06:48:03.021095+00:00,Google,https://google.com,200,200,238,1,
 2026-06-08T06:48:03.287322+00:00,Github,http://github.com/,200,504,266,0,HTTPError: HTTP Error 504: Gateway Time-out
+2026-06-08T11:50:37.014162+00:00,Google,https://google.com,200,200,197,1,
+2026-06-08T11:50:37.274636+00:00,Github,http://github.com/,200,200,260,1,

@@ -2937,3 +2937,5 @@ timestamp_utc,name,url,expected_status,actual_status,latency_ms,is_up,error
 2026-08-12T21:26:26.722630+00:00,Github,http://github.com/,200,503,38,0,HTTPError: HTTP Error 503: Service Unavailable
 2026-08-12T22:09:05.070010+00:00,Google,https://google.com,200,200,172,1,
 2026-08-12T22:09:05.127421+00:00,Github,http://github.com/,200,0,57,0,Exception: Remote end closed connection without response
+2026-08-12T22:58:37.662351+00:00,Google,https://google.com,200,200,192,1,
+2026-08-12T22:58:37.892877+00:00,Github,http://github.com/,200,200,230,1,

@@ -3383,3 +3383,5 @@ timestamp_utc,name,url,expected_status,actual_status,latency_ms,is_up,error
 2026-08-18T19:05:39.315882+00:00,Github,http://github.com/,200,200,208,1,
 2026-08-18T19:37:56.022137+00:00,Google,https://google.com,200,200,132,1,
 2026-08-18T19:37:56.095639+00:00,Github,http://github.com/,200,200,73,1,
+2026-08-18T19:55:52.460896+00:00,Google,https://google.com,200,200,519,1,
+2026-08-18T19:55:53.100034+00:00,Github,http://github.com/,200,200,639,1,

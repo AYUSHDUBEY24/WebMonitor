@@ -4011,3 +4011,5 @@ timestamp_utc,name,url,expected_status,actual_status,latency_ms,is_up,error
 2026-08-26T13:13:48.331201+00:00,Github,http://github.com/,200,0,10012,0,URLError: <urlopen error timed out>
 2026-08-26T14:03:47.907122+00:00,Google,https://google.com,200,200,151,1,
 2026-08-26T14:03:48.005083+00:00,Github,http://github.com/,200,200,97,1,
+2026-08-26T16:33:19.364466+00:00,Google,https://google.com,200,200,192,1,
+2026-08-26T16:33:19.455645+00:00,Github,http://github.com/,200,200,91,1,
